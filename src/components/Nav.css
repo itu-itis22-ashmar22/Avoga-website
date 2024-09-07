@@ -1,0 +1,21 @@
+/* Nav.css */
+.nav-links li a {
+  position: relative;
+  display: inline-block;
+  padding: 5px 15px; /* Reduced padding for smaller size */
+  background-color: rgba(255, 255, 255, 0.3); /* Slightly increased opacity */
+  border-radius: 15px; /* Adjusted border-radius for better shape */
+  backdrop-filter: blur(3px); /* Slight blur effect */
+  transition: background-color 0.3s, padding 0.3s; /* Smooth transition */
+  font-size: 16px; /* Adjust font size if needed */
+  color: white; /* Default text color is white */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added subtle box shadow for better contrast */
+}
+
+.nav-links li a[href="#home"] {
+  color: black; /* Specific color for Home link */
+}
+
+.nav-links li a:hover {
+  background-color: rgba(255, 255, 255, 0.5); /* Increase opacity on hover */
+}

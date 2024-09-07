@@ -1,0 +1,26 @@
+/* styles.css */
+.rotating-heading {
+    transition: transform 0.1s ease-out;
+  }
+  .non-selectable {
+    user-select: none; /* Prevent text selection */
+  }
+  .bg-hero-custom {
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center top; /* Center horizontally and align to the top */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Keep the image fixed during scrolling */
+    min-height: 100vh; /* Ensure the container covers the full viewport height */
+    width: 100%; /* Ensure the container covers the full width */
+  } 
+  
+  
+  
+  
+
+  
+  
+  
+  
+
+  
